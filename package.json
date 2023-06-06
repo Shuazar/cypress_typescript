@@ -1,0 +1,24 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "set ENVIRONMENT=local& cypress open ",
+    "production": "cypress open --env running_env=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "@types/node": "^20.2.5",
+    "@types/pg": "^8.10.1",
+    "cypress": "^12.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pg": "^8.11.0",
+    "typescript": "^5.0.4"
+  }
+}
